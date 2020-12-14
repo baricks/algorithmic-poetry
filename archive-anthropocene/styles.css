@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html {
+    background-image: linear-gradient(180deg, #ACCBEB, #FFFFFF);
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+body {
+  margin: 50pt;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+  border-style: dotted;
+  display:inline;
+  padding: 0.4em 0.4;
+}
+
+@-webkit-keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    16% {
+        opacity: 1;
+    }
+    84% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    16% {
+        opacity: 1;
+    }
+    84% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+#output {
+  font-size: 1.1em;
+  padding: 10pt;
+    opacity: 0;
+    -webkit-animation: fadeInOut 200s;
+    animation: fadeInOut 200s;
+    padding: 40px;
+    border-style: dotted;
+}
+
+#meditations {
+  font-size: 0.9em;
+  background-color: white;
+  display:inline;
+  opacity: 0;
+  -webkit-animation: fadeInOut 200s;
+  animation: fadeInOut 200s;
+}
